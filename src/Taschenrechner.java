@@ -1,10 +1,4 @@
 public class Taschenrechner {
-    public static void main(String[] args) {
-        System.out.println("IntDivision:"+divide(20, 3)+"\nDoubledivision:"+divide(20.0,3));
-        System.out.println("Intmultiply:"+multiply(7,3)+"\nDoublemultiply:"+multiply(7.0,3.2));
-        System.out.println("Intsubtract:"+subtract(10,4)+"\nDoublesubtract:"+subtract(10.40,5.30));
-        System.out.println("Intadd:"+add(3,5)+"\nDoubleadd:"+add(3.2,5.3));
-    }
 
     public static int add(int a, int b) {
         int c = a + b;
