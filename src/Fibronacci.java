@@ -24,7 +24,7 @@ public class Fibronacci {
             int i = 1;
             int k = 1;
             int l = 1;
-            while (a - 1 > i - 1) {
+            while (a > i ) {
                 k = k + l;
                 l = k - l;
                 i++;
